@@ -1,15 +1,17 @@
 import { USER_INFO } from '../actions';
 
 const INITIAL_STATE = {
-  user: {
-    email: '',
-  },
+  email: '',
+  senha: '',
+
 };
 
 const user = (state = INITIAL_STATE, action) => {
   switch (action.type) {
   case USER_INFO: {
-    return { ...state, user: action.saveInfoUser };
+    return {
+      email: action.email,
+    };
   }
 
   default:

@@ -1,9 +1,9 @@
 export const USER_INFO = 'USER_INFO';
 export const WALLET_INFO = 'WALLET_INFO';
 
-export const saveInfoUser = (user) => ({
+export const saveInfoUser = (email) => ({
   type: USER_INFO,
-  user,
+  email,
 });
 
 export const saveWalletInfo = (wallet) => ({
