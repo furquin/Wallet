@@ -16,7 +16,7 @@ export class UserLogin extends Component {
     };
   }
 
-  // função consultada no repositório da Laura Fumagalli https://github.com/tryber/sd-016-a-project-trybewallet/pull/29/commits/1580e3f0f2c47a96e581661f01d88c984005aae2
+  // & função consultada no repositório da Laura Fumagalli https://github.com/tryber/sd-016-a-project-trybewallet/pull/29/commits/1580e3f0f2c47a96e581661f01d88c984005aae2
 
   handleChange = ({ target: { name, value } }) => {
     this.setState({ [name]: value }, () => {
