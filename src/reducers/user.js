@@ -10,7 +10,7 @@ const user = (state = INITIAL_STATE, action) => {
   switch (action.type) {
   case USER_INFO: {
     return {
-      email: action.email,
+      ...state, email: action.email,
     };
   }
 
